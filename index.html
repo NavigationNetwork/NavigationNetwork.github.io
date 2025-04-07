@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>National Navigation Network</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://images.squarespace-cdn.com/content/61f6dd911f134e4b05c704f9/29c0368d-34de-48ea-aa77-ea74b5b75853/Untitled+design+%2817%29.png?content-type=image%2Fpng");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img height="40px" src="https://images.squarespace-cdn.com/content/61f6dd911f134e4b05c704f9/bb7dd6de-86e8-463f-8694-b785b4d38593/Navigation+Network+Logo+%281%29.png?content-type=image%2Fpng"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a class="w3-bar-item w3-button">Welcome to the National Navigation Network</a>
+      
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a onclick="w3_close()" class="w3-bar-item w3-button">Welcome to the National Navigation Network</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Fuel the Future of Patient Navigation</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Fuel the Future of Patient Navigation</span><br>
+   
+    <span class="w3-large">Join the national movement to connect, collaborate,<br>and ensure no patient faces cancer without informed<br>and compassionate support.</span>
+  </div> 
+  
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Join the National Navigation Network Today</h3>
+  <p class="w3-center w3-large">We believe in the power of navigation—and that every patient deserves compassionate, knowledgeable support to help guide them through cancer care. Whether you're a nurse navigator, patient navigator, social work navigator, or financial navigator, your expertise plays a vital role in improving outcomes and easing the burden for those facing a cancer diagnosis. <br><br>
+
+We're building a nationwide network of navigation professionals to strengthen collaboration, streamline referrals, and ensure no patient is left without the support they need. By joining this network, you’ll be helping us ensure that patients—no matter where they live—can access the guidance and empowerment they deserve throughout their care experience.
+
+Together, we can expand access, elevate support, and make meaningful connections that matter.
+
+<br><br>
+
+Fill out the form below to be part of this national movement.</p>
+  
+</div>
+
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "07bfe2ecab4bf38d63ead230bafbad56"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+<!-- Begin Constant Contact Inline Form Code -->
+<div class="ctct-inline-form" data-form-id="95b14219-038b-4392-8e12-42a2b5fe4485"></div>
+<!-- End Constant Contact Inline Form Code -->
+
+
+
+<!-- Contact Section -->
+<br>
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p align="center"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:NationalNavigationNetwork@gmail.com">NationalNavigationNetwork@gmail.com</a></p>
+   </div>
+    
+</div>
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
